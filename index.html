@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>My Profile</title>
+	<link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+	<div class="body">
+		<main>
+			<section.header>
+				<div class="logo">
+					<img src="https://res.cloudinary.com/pato/image/upload/v1587111791/dorcjoe-removebg-preview.png" alt="My logo">
+        </div>
+        <nav>
+          <div><a href="index.html">About</a></div>
+          <div><a href="services.html">Services</a></div>
+          <div><a href="find out more.html">Find Out More</a></div>
+        </nav>
+        <div class="icons">
+          <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Facebook2_colored_svg-256.png" alt="Fb.1" onclick="redirectTo('https://web.facebook.com/learn.programming/')" />
+           <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter_colored_svg-256.png" alt="T.2" />
+            <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Whatsapp2_colored_svg-256.png" alt="W.3" />
+             <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-256.png" alt="I.4" />
+        </div>
+      </section.header>
+
+      <section.biodata>
+        <fieldset>
+          <legend><strong>My Bio-data</strong></legend>
+         
+           <img class="profile-pic" src="https://scontent.flos2-1.fna.fbcdn.net/v/t1.0-9/42439066_856207197919107_7843765224971698176_o.jpg?_nc_cat=101&_nc_sid=85a577&_nc_eui2=AeEZZsZu9P619dAcwmo1oFuqxdLq2tgEBTDF0ura2AQFMDyW12L_i0T3mwl5PA_Sa5FZiKWGA2t5intWehxobgle&_nc_oc=AQlgathBeNMOPn1KncLHUFAaG1R-VLaHfsliEr-Wy9FvCWwVbdmAawQJUK8xp0v7V3M&_nc_ht=scontent.flos2-1.fna&oh=b900aee59b9ccf4f18904d3c4ec7110f&oe=5EBEB9D3" alt="My Profile Pic">
+       
+        <p><strong>Name:</strong> Dorcas Joe</p>
+        <p><strong>State of Origin:</strong> Akwa Ibom</p>
+         <p><strong>Date of Birth:</strong> 30-06-96</p>
+          <p><strong>Address:</strong> Bonny Island</p>
+          <p><strong>Occupation:</strong> Software developer (Frontend)</p>
+           <p><strong>Hometown:</strong> Ikot Inyang 1</p>
+           <p><strong>Slack ID:</strong> Dorcas</p>
+           <p><strong>Interests:</strong> Coding as well as acquiring and practicing new skills</p>
+            <p><strong>Want to know more?</strong><a href="find out more.html"> Find Out More</a></p>
+          
+        </fieldset>
+      </section.biodata>
+      
+      <section.contactform>
+        <p class="contact-form-header">Interested in what I do? It would be a pleasure to hear from you.</p>
+        <form>
+          <div class="labels">
+            <label for="name"></label>
+            <input type="text" name="fullname" placeholder="Full Name">
+          </div>
+          <div class="labels">
+            <label for="email"></label>
+            <input type="email" name="email" placeholder="Email">
+          </div>
+          <textarea placeholder="Let me know what you think"></textarea>
+          <br>
+          <button type="submit" onclick="alert('request submitted')">Contact Me</button>
+        </form>
+      </section.contactform>
+    </main>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>
