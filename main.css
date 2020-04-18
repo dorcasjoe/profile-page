@@ -107,6 +107,7 @@ input {
   margin-bottom: .75rem;
   border-radius: 5px;
   width: 70vw;
+  text-align: center
 }
 
 textarea {
